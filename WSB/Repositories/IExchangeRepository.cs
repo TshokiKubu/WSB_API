@@ -8,6 +8,8 @@ namespace WSB.Repositories
 {
     public interface IExchangeRepository
     {
-        ExchangeRate getCurrency(string cuurrency);
+      string  getCurrency(string b);
+
+      //  public double <ExchangeRate> getCurreny(double b);
     }
 }
